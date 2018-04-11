@@ -3,8 +3,6 @@ version: '3'
 services:
   web:
     build: .
-    volumes:
-      - ./landbook-receiver:/usr/landbook-receiver
     tty: true
 
 
